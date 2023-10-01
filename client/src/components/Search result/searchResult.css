@@ -1,0 +1,39 @@
+.key {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  transition: 0.3s;
+  opacity: 0%;
+}
+.key:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+.show {
+  opacity: 100%;
+  transition: 2s;
+}
+.show {
+}
+@media only screen and (max-width: 1000px) {
+  .image {
+    width: 110px;
+    height: 110px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .key {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    width: 90%;
+  }
+
+  .item-heading {
+    margin-left: 0.5rem;
+    width: 70%;
+  }
+  .itm-lnk {
+    width: 30%;
+  }
+}
